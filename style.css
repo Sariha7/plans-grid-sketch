@@ -1,0 +1,537 @@
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+	html, body, div, span, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	abbr, address, cite, code,
+	del, dfn, em, img, ins, kbd, q, samp,
+	small, strong, sub, sup, var,
+	b, i,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section, summary,
+	time, mark, audio, video {
+	    margin:0;
+	    padding:0;
+	    border:0;
+	    box-sizing: border-box;
+	    outline:0;
+	    font-size:100%;
+	    vertical-align:baseline;
+	    background:transparent;
+	}
+
+	body {
+	    line-height:1;
+	}
+
+	article,aside,details,figcaption,figure,
+	footer,header,hgroup,menu,nav,section { 
+	    display:block;
+	}
+
+	nav ul {
+	    list-style:none;
+	}
+
+	blockquote, q {
+	    quotes:none;
+	}
+
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+	    content:'';
+	    content:none;
+	}
+
+	a {
+	    margin:0;
+	    padding:0;
+	    font-size:100%;
+	    vertical-align:baseline;
+	    background:transparent;
+	}
+
+	/* change colours to suit your needs */
+	ins {
+	    background-color:#ff9;
+	    color:#000;
+	    text-decoration:none;
+	}
+
+	/* change colours to suit your needs */
+	mark {
+	    background-color:#ff9;
+	    color:#000; 
+	    font-style:italic;
+	    font-weight:bold;
+	}
+
+	del {
+	    text-decoration: line-through;
+	}
+
+	abbr[title], dfn[title] {
+	    border-bottom:1px dotted;
+	    cursor:help;
+	}
+
+	table {
+	    border-collapse:collapse;
+	    border-spacing:0;
+	}
+
+	/* change border colour to suit your needs */
+	hr {
+	    display:block;
+	    height:1px;
+	    border:0;   
+	    border-top:1px solid #cccccc;
+	    margin:1em 0;
+	    padding:0;
+	}
+
+	input, select {
+	    vertical-align:middle;
+	}
+/****  END RESET *****/
+
+	a.phone-number {
+		padding-left: 40px;
+		position: relative;
+	}
+	a.phone-number::before {
+		content: '';
+		width: 30px;
+		height: 30px;
+		background: url('icon-telephone.svg') left top no-repeat transparent;
+		background-size: cover;
+		position: absolute;
+		top: 3px;
+		left: 0;
+		z-index: 10;
+	}
+
+.page-home{
+	background-color: white;
+/*   	font-family: Arial;
+*/ 	text-decoration: none;
+	font-family: 'Montserrat';
+}
+
+.header {
+	top:0;
+}
+
+.logo-image{
+	height: 40px;
+	width: 160px;
+}
+
+.header-menu li{
+	display: inline-block;
+	margin: auto;
+	font-family: 'Montserrat';
+	padding-right: 5%;
+
+}
+
+.menu-items{
+	text-align: right;
+	color: black;
+	text-align: center;
+	background-color:white;
+	padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.menu-items a{
+	text-decoration: none;
+	color: black;
+}
+
+.logo-image{
+	width: 61px;
+	height: 25px;
+	position: relative;
+	top: 7px;
+}
+
+.hero{
+	background: url(group_3.jpg);
+	background-size: cover;
+	padding: 220px;
+	min-height: 100%;
+	min-width: 200px;
+	z-index: 0;
+}
+
+.hero-content{
+	/*float: right;
+	font-family: arial;
+	position: relative;*/
+	font-family: 'Montserrat';
+/*	background-color: red;
+*/	margin-left: 620px;
+	position: relative;
+	top: -95px;
+}
+
+.hero-introduction{
+	font-weight: bold;
+	width: 430px;
+    font-size: 63px;
+}
+
+.hero-sub{
+	width: 400px;
+    height: 46px;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.phone-button{
+	background-color: #E01111;
+	padding: 12px 23px;
+	border-radius: 91px;
+	border: none;
+	color: white;
+}
+
+.center-block li{
+	display: inline-block;
+	margin: auto;
+}
+.center-block{
+	background-size: 1050px 689px;
+	z-index: 1;
+}
+
+.heart{
+	height: 25px;
+	width: 25px;
+}
+
+.mid-heading{
+	margin-left: 30%;
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mid-heading li{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.location {
+	color: #ff0000;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.location-icon {
+	padding-left: 5px;
+}
+
+.price-container{
+	background-color: rgba(255,255,255, 0.9);	
+	height: 626px;
+	width: 1221px;
+	margin: 0 auto;
+	margin-top: -179px;
+
+}
+
+.laptop-feature{
+	background-color: #fff;
+	float: left;
+	height: 409px;
+	width: 243px;
+	position: relative;
+	margin-right: 15px;
+	border-radius: 4px;
+	box-shadow: 0px 5px 7px rgba(0,0,0, 0.2);
+}
+
+.product-forty{
+	margin-left: 110px;
+}
+
+.price .dollar,
+.price .currency {
+	vertical-align: top;
+}
+
+.price * {
+	display: inline-block;
+}
+
+.cents{
+	display: block;
+	text-align: left;
+	font-size: 23px;
+}
+
+.term{
+	display: block;
+	text-align: left;
+	font-size: 10px;
+}
+
+.price .amount {
+	font-size: 80px;
+	font-weight: 700;
+	color: #000;
+}
+
+.dollar{
+	font-size: 30px;
+}
+
+.laptop-feature li{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.laptop-feature p{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.laptop{
+	padding-top: 20px;
+}
+
+.order-button{
+	background-color: #E01111;
+    padding: 16px 80px;
+    border-radius: 91px;
+    border: none;
+    position: relative;
+    top: 10px;
+    margin-left: 135px;
+    font-size: 18px;
+    color: white;
+}
+
+.cart{
+	background-color: #E01111;
+	border-radius: 50%;
+	border: none;
+	margin-left: 90px;
+	height: 70px;
+    width: 70px;
+}
+
+/*.mid-footer{
+	position: relative;
+	float: left;
+	background: grey;
+}*/
+.mid-headline{
+	font-size: 25px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.mid-sub{
+	font-size: 18px;
+	height: 46px;
+	width: 438px;
+	font-weight: normal;
+}
+.mid-footer-buckets{
+	position: relative;
+	float: left;
+	padding-top: 50px;
+	padding-left: 30px;
+}
+
+.center-container{
+	padding-top: 100px;
+	margin: 0 auto;
+	width: 1000px;
+	height: 300px;
+	margin-bottom: 50px;
+}
+
+.center-container ul{
+	float: left;
+}
+
+.left-arrow{
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin-top: 100px;
+}
+
+.right-arrow{
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin-top: 100px;
+}
+
+.black-computer{
+	float: left;
+	height: 245px;
+    width: 424px;
+}
+
+.center-container h1{
+	font-size: 52px;
+	width: 400px;
+}
+
+.center-container h2{
+	font-weight: normal;
+	font-size: 18px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.view-bundles-button{
+	background-color: #E01111;
+	padding: 10px 30px;
+	border-radius: 91px;
+	border: none;
+	color: white;
+}
+
+.circles{
+	padding-top: 40px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.circle{
+	border: 1px solid #bdbdbd;
+	border-radius: 100%;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+}
+
+.circle.is-active {
+	background-color: #bdbdbd;
+}
+
+.order-banner{
+	background-color: #E01111;
+	margin-top: 100px;
+	margin: 0 auto;
+	position: relative;
+	width: 1221px;
+	border-radius: 2px;
+}
+
+.order-banner ul{
+
+}
+
+.order-banner li{
+	display: inline-block;
+	padding: 40px;
+	vertical-align: middle;
+}
+
+.ready{
+	font-size: 30px;
+	width: 170px;
+	font-weight: bold;
+	color: white;
+}
+
+.latin{
+	top: 10px;
+	line-height: 1.5;
+	color: white;
+	font-size: 20px;
+    font-weight: normal;
+}
+
+.phone-number{
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.phone-number img {
+	padding-right: 10px;
+}
+
+
+.heading-columns{
+	width: 1221px;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 50px;
+	overflow: hidden;
+}
+
+.heading-column{
+	float:left;
+	width: 25%;
+	text-align: center;
+	padding: 7px 0;
+	line-height: 2.2;
+	font-size: 15px;
+	color: #E55058;
+}
+
+.heading-title{
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	color: black;
+}
+
+footer {
+	width: 1221px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.footer-content ul{
+	padding-left: 39%;
+	padding-top: 3%;
+
+}
+
+	.Company:before {
+  content:"\00a9";
+}
+
+.social {
+	height: 50px;
+	padding-top: 10px;
+	padding-left: 70px;
+	margin-top: 12px;
+}
+
+.first-page{
+	color: #E55058;
+	text-decoration: underline;
+}
+
+.style{
+	list-style-type: none;
+}
+
+.circle-one{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	color: grey;
+}
